@@ -5,9 +5,7 @@ weight: 6
 aliases: ["/documentation/zh-cn/webdriver/waits/"]
 ---
 
-Perhaps the most common challenge for browser automation is ensuring
-that the web application is in a state to execute a particular
-Selenium command as desired. The processes often end up in
+在自动化浏览编程里，通常在执行一个selenium 指令之前需要确认浏览器的状态是可以操作的. The processes often end up in
 a _race condition_ where sometimes the browser gets into the right
 state first (things work as intended) and sometimes the Selenium code
 executes first (things do not work as intended). This is one of the
